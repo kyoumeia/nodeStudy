@@ -7,7 +7,7 @@ var server = http.createServer(function (request, response) {
         filePath = 'index.html'
     } else if (request.url === '/login') {
         filePath = 'login.html'
-    } else if (request.url === 'register') {
+    } else if (request.url === '/register') {
         filePath = 'register.html'
     } else {
         filePath = 'error.html'
